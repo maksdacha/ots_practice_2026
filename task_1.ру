@@ -1,0 +1,20 @@
+# Лабораторная №1: Первичная иницилизация
+# Курс: Основы теории систем
+# Студент: Фомин Максим Александрович
+def get_system_info():
+"""
+Эта функция должна вернуть словарь с информацией о вашей "системе".
+"""
+# TODO: Заполните словарь вашими реальными данными
+system_info = {
+"student_name": "Фомин Максим Александрович",
+"academic_group": "ИВТИИбд-11" ,
+"github_link": "https://github.com/Fomin_Maksim"
+}
+return system_info
+# Вывод информации для проверки
+if__name__ == "__main__":
+info = get_system_info()
+print("Информация о системе:")
+for key, value in info.items():
+pfint(f"- {key}: {value}")
